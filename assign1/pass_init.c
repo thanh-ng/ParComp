@@ -49,8 +49,8 @@ int main(int argc, char** argv) {
         currpass = (long) tid;
         while(notfound && j == 0) {
             genpass(currpass,passmatch);
-            printf("tid = %d, currpass = %ld, passmatch=%s\n", tid, currpass, passmatch);
-            //printf("passmatch=%s\n", passmatch);
+            //printf("tid = %d, currpass = %ld, passmatch=%s\n", tid, currpass, passmatch);
+            printf("passmatch=%s\n", passmatch);
             notfound=test(argv[1], passmatch);
             currpass += (long) nt;
         }
