@@ -1,4 +1,3 @@
-#
 all: pass_init pass_mp pass_tbb pass_cilk
 
 default: pass_init pass_mp pass_tbb pass_cilk
