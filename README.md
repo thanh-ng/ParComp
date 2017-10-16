@@ -38,7 +38,10 @@ machines as follows
   ![](/figs/scan.png)  
 * **Recurrence**: an advanced version of map where an iteration can depends on the output of the previous iteration. 
 ## Parallel Data Management Patterns  
-* **Gather**: Read a collection of data given a collection of indices
+* **Gather**: Read a collection of data given a collection of indices  
+  * **Zip**: interleaves data 
+  * **Unzip**
+  * **Shift**
 * **Scatter**: The inverse of gather
 * **Pack** 
 * **Pipeline** 
