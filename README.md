@@ -42,7 +42,7 @@ machines as follows
   * **Zip**: interleaves data 
   * **Unzip**
   * **Shift**
-* **Scatter**: The inverse of gather
+* **Scatter**: The inverse of gather, i.e., write to a new collection of data given a collection of data and a collection of indices. 
 * **Pack** 
 * **Pipeline** 
 * **Geometric Decompostion** 
