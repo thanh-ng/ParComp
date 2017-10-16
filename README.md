@@ -22,3 +22,4 @@ machines as follows
   ![](/figs/increment.png)
   
   
+## Parrallel Patterns  
