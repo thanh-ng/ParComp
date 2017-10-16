@@ -22,4 +22,9 @@ machines as follows
   ![](/figs/increment.png)
   
   
-## Parrallel Patterns  
+## Dependency Patterns  
+* Data dependencies:
+  * True (flow) dependency: Read-After-Write (RAW) 
+  * Anti-dependency: Write-after-Read (WAR) 
+  * Output dependency: Write-after-Write (WAW)
+* Loop-carried dependencies 
