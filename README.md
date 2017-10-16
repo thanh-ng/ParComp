@@ -27,4 +27,12 @@ machines as follows
   * True (flow) dependency: Read-After-Write (RAW) 
   * Anti-dependency: Write-after-Read (WAR) 
   * Output dependency: Write-after-Write (WAW)
-* Loop-carried dependencies 
+* Loop-carried dependencies   
+
+## Parallel Patterns
+* **Fork-join**: fork a flow into multiple parallel flows and then rejoin into a single flow   
+* **Map**: perform a single function over every element of a collection 
+* **Stencil**: perform a single function over a subset of neighboring elements of a clollection  
+* **Reduce**: Combine each element in a collection using a combiner (e.g., addition, multiplication). Requirement: the combiner is associative. 
+* **Scan**: Compute partial reduction of a collection (e.g., prefix sum)   
+  ![](/figs/scan.png)
