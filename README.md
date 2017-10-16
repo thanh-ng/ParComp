@@ -3,6 +3,9 @@
 ## Fundamental concepts in O.S. and multithreaded computing   
 I present here important concepts that I think they are very fundamental but not easy to understand only from lecture notes in my class.They are listed in the order that I recall them, not in their "correct" order. 
 * **False sharing** : [utube link](https://www.youtube.com/watch?v=dznxqe1Uk3E)  
+When a shared set of variables can fit the cache line, every time a thread in a processor modifies any of the variables in the set, it forces the memory update to maintain cache coherence (4 states MESI in cache line). Such memory update hurts the performance 
+
+  ![](/figs/false_sharing.png)
 * **Understanding OS and Kernel**: A kernel manages the communication between the software (user-level applications) and the hardward. OS = kernel space + user space (applications). For example, some can add applications to LINUX kernel to make OS such as Ubuntu, Centos. ([source](https://www.go4expert.com/articles/operating-kernel-types-kernels-t24793/))  
 * **Kernel threads vs. user threads**: 
   * Differences: [link](http://www.cs.iit.edu/~cs561/cs450/ChilkuriDineshThreads/dinesh's%20files/User%20and%20Kernel%20Level%20Threads.html)
