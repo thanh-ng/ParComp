@@ -35,4 +35,5 @@ machines as follows
 * **Stencil**: perform a single function over a subset of neighboring elements of a clollection  
 * **Reduce**: Combine each element in a collection using a combiner (e.g., addition, multiplication). Requirement: the combiner is associative. 
 * **Scan**: Compute partial reduction of a collection (e.g., prefix sum)   
-  ![](/figs/scan.png)
+  ![](/figs/scan.png)  
+* **Recurrence**: an advanced version of map where an iteration can depends on the output of the previous iteration. 
