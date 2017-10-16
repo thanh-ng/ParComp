@@ -37,3 +37,9 @@ machines as follows
 * **Scan**: Compute partial reduction of a collection (e.g., prefix sum)   
   ![](/figs/scan.png)  
 * **Recurrence**: an advanced version of map where an iteration can depends on the output of the previous iteration. 
+## Parallel Data Management Patterns  
+* **Gather**: Read a collection of data given a collection of indices
+* **Scatter**: The inverse of gather
+* **Pack** 
+* **Pipeline** 
+* **Geometric Decompostion** 
