@@ -36,9 +36,10 @@ machines as follows
 * **Reduce**: Combine each element in a collection using a combiner (e.g., addition, multiplication). Requirement: the combiner is associative. 
 * **Scan**: Compute partial reduction of a collection (e.g., prefix sum)   
   ![](/figs/scan.png)  
-* **Recurrence**: an advanced version of map where an iteration can depends on the output of the previous iteration. 
-## Parallel Data Management Patterns  
-* **Gather**: Read a collection of data given a collection of indices  
+* **Recurrence**: an advanced version of map where an iteration can depends on the output of the previous iteration.Trick to remove loop-carried dependencies in recurrence: **sweep**
+  ![](/figs/sweep_recurence.png)  
+## Parallel Data Management Patterns   
+* **Gather**: Read a collection of data given a collection of indices  
   * **Zip**: interleaves data 
   * **Unzip**
   * **Shift**
