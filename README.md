@@ -43,8 +43,8 @@ machines as follows
   * **Unzip**
   * **Shift**
 * **Scatter**: The inverse of gather, i.e., write to a new collection of data given a collection of data and a collection of indices. 
-* **Pack**:   
-  * **Split**: a generalization of Pack, 2 bins 
+* **Pack**:     
+  * **Split**: a generalization of Pack, 2 bins 
   * **Bin**: a generalization of Split, n bins  
   * **Expand**: any element can output any number of elements; the results are then fused in order
 * **Pipeline** 
