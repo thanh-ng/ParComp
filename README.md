@@ -49,4 +49,9 @@ machines as follows
   * **Bin**: a generalization of Split, n bins  
   * **Expand**: any element can output any number of elements; the results are then fused in order
 * **Pipeline** 
-* **Geometric Decompostion** 
+* **Geometric Decompostion**   
+
+## Parallel Sorting  
+* **Odd-Even transposition sort**:  
+  ![](/figs/odd_even_trans.png)  
+
