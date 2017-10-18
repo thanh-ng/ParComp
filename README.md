@@ -51,7 +51,11 @@ machines as follows
 * **Pipeline** 
 * **Geometric Decompostion**   
 
-## Parallel Sorting  
-* **Odd-Even transposition sort**:  
-  ![](/figs/odd_even_trans.png)  
+## Parallel Algorithms  
+* **Parallel Pair-wise sum**: O(log(n))
+* **Parallel Prefix sum**: O(2log(n))
 
+* **Parallel Sorting**
+  * **Odd-Even transposition sort**:  
+  ![](/figs/odd_even_trans.png)  
+It has n(n-1)/2 comparators. In parallel system, time complexity is O(n) 
