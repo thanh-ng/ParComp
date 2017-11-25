@@ -8,4 +8,9 @@
   * CUDA  
   
  * Projects: 
-    * MPI version of "Game of Life": [[code]](https://github.com/thanh-ng/parallel-computing/blob/master/assign3/life.cpp)
+    * MPI version of "Game of Life": [[code]](https://github.com/thanh-ng/parallel-computing/blob/master/assign3/life.cpp) 
+    , 
+    
+    e.g., Pulsar pattern: 
+    
+    ![](/figs/output_vLzPvI.gif)
